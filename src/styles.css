@@ -104,25 +104,26 @@ nav {
     margin-left: 2.5vw;
     min-height: 200px;
     height: 24vw;
+    overflow: hidden;
 }
 
 .intro-text h1{
     color:rgb(235, 235, 235);
-    font-size: 2.5vw;;
+    font-size: 34px;
     margin-top: 0.5vw;
     margin-bottom: 0vw;
 }
 
 .intro-text h2{
     color:rgb(235, 235, 235, 0.7);
-    font-size: 1.6vw;
+    font-size: 20px;
     margin-top: 0.3vw;
     margin-bottom: 0.3vw;
 }
 
 .intro-text h3 {
     color: #00ff87;
-    font-size:1vw;
+    font-size:14px;
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 0.5vw;
 }
