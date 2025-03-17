@@ -37,9 +37,9 @@ const Projects = () => {
         </div>
     </div> */}
     
-    <div className="middle">
+    {/* <div className="middle">
     
-    </div>
+    </div> */}
 
     <Footer/>
     </div>
