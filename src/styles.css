@@ -98,12 +98,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 0vw;       
+    margin-bottom: 0vw;
     padding-top: 2vw;
-    margin-top: 0vw;
-    margin-right: 3vw;
-    margin-left: 2.5vw;
-    min-height: 200px;
-    height: 24vw;
+    padding-right: 3vw;
+    padding-left: 2.5vw;
+    padding-bottom: 0vw;
+    min-height: 300px;
+    height: auto;
     overflow: hidden;
 }
 
