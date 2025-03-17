@@ -13,6 +13,7 @@ body{
     flex-direction: column;
     background:linear-gradient(90deg, #1c193f, #390047);
     height: 100%;
+    width:auto;
     font-family: 'Poppins', sans-serif;
     color: rgb(12, 209, 209);
     min-width: 70vw;
