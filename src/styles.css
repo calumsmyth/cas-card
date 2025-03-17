@@ -9,11 +9,11 @@ body{
     display: flex;
     flex-direction: column;
     background:linear-gradient(90deg, #1c193f, #390047);
-    height: 100%;
+    height: auto;
     width:auto;
     font-family: 'Poppins', sans-serif;
     color: rgb(12, 209, 209);
-    min-width: 70vw;
+    min-width: 40vw;
     margin: auto;
     margin-top: 3vw;
     padding-left: 10px;
