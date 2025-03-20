@@ -9,17 +9,48 @@ body{
     display: flex;
     flex-direction: column;
     background:linear-gradient(90deg, #1c193f, #390047);
+    box-shadow: 0px 0px 30px #ff007f;
+    animation: cardNeonFlicker 8s infinite alternate;
     height: auto;
-    width:auto;
+    width: 75vw;
     font-family: 'Poppins', sans-serif;
     color: rgb(12, 209, 209);
     min-width: 40vw;
+    min-height: 32vw;
     margin: auto;
+    margin-left: 3vw;
+    margin-right: 3vw;
     margin-top: 3vw;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 0px;
+    border-radius: 5px;
 
+
+}
+
+@keyframes cardNeonFlicker{
+    0% {
+        border-color: #8a2be2;
+        box-shadow: 0px 0px 40px #8a2be2;
+    }
+    25%{
+        border-color: #8a2be2;
+        box-shadow: 0px 0px 40px #ff007f;
+    }
+    50%{
+        border-color: #8a2be2;
+        box-shadow: 0px 0px 40px #ff007f;
+      }
+
+    75% {border-color: #8a2be2;
+        box-shadow: 0px 0px 40px #8a2be2;
+    }
+
+    100% {
+        border-color: #8a2be2;
+        box-shadow: 0px 0px 40px #8a2be2;
+      }
 
 }
 
@@ -27,8 +58,9 @@ nav {
     display: flex;
     justify-content: center;
     padding: 12px;
-    border-radius: 5px;
+    padding-bottom: 0px;
     font-family: 'Courier New', Courier, monospace;
+
 }
 
 .navbar{
@@ -60,7 +92,7 @@ nav {
     font-size: 16px;
     cursor:pointer;
     transition: all 0.3s ease-in-out;
-    animation: neonFlicker 1.9s infinite alternate;
+    animation: neonFlicker 1.8s infinite alternate;
 }
 
 @keyframes neonFlicker {
@@ -103,14 +135,13 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-top: 0vw;       
-    margin-bottom: 0vw;
-    padding-top: 2vw;
+    margin-bottom: 4vw;
+    padding-top: 4vw;
     padding-right: 3vw;
     padding-left: 2.5vw;
     padding-bottom: 0vw;
-    min-height: 300px;
+    min-height: 16vw;
     height: auto;
-    overflow: hidden;
 }
 
 .intro-text h1{
@@ -123,11 +154,12 @@ nav {
 .intro-text h2{
     color:rgb(235, 235, 235, 0.7);
     font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
     margin-top: 0.3vw;
     margin-bottom: 0.3vw;
 }
 
-.intro-text h3 {
+.intro-text h3{
     color: #00ff87;
     font-size:14px;
     font-family: 'Courier New', Courier, monospace;
@@ -152,7 +184,7 @@ nav {
 .intro-paragraph {
     font-size: 16px;
     text-align: flex-start;
-    color: rgb(250, 230, 255);
+    /* color: rgb(250, 230, 255); */
 }
 
 .intro-paragraph a{
@@ -171,7 +203,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     height: auto;
     width: 10vw;
     object-fit: contain;
@@ -198,6 +229,42 @@ nav {
         transform: Scale(1.1);
 }
 
+
+.projects-paragraph h2 {
+    color: #00ffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:28px;
+    margin-bottom: 4vw;
+    text-align: center;
+}
+
+.projects-paragraph h3{
+    color: #00ff87;
+    font-size:26px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0.5vw;
+    padding-bottom: 0vw;
+}
+
+.projects-paragraph p {
+    margin-top: 0.5vw;
+    margin-bottom: 0vw;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.projects-paragraph a {
+    display: flex;
+    justify-content: center;
+    text-decoration:underline;
+    font-size: 20px;
+    font-weight: bold;
+    color:#ff007f;
+    margin-top: 0.1vw;
+    margin-bottom: 4vw;
+}
 
 
 
@@ -244,10 +311,12 @@ nav {
 .footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding-top:0px;
-    padding-bottom: 0px;
+    padding-bottom: 2px;
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 5px;
 
 }
 
@@ -258,6 +327,7 @@ nav {
 
 .socials {
     display: flex;
+    
 
 }
 
@@ -265,6 +335,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 20px;
     margin-top: 10px;
     margin-bottom:0px;

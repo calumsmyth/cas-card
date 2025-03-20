@@ -11,7 +11,7 @@ const ImageSwitcher = () => {
         <div className="image-container" onClick={() => setIsToggled(!isToggled)}>
             <motion.img
             key={isToggled}
-            src={isToggled ? FrontOnPhoto: AvatarImage}
+            src={isToggled ? AvatarImage : FrontOnPhoto}
             alt="Avatar image which changes to image of Calum on click"
             initial={{opacity: 0, scale: 0.8}}
             animate={{opacity: 1, scale: 1}}

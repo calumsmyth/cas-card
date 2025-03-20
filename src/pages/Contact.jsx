@@ -7,7 +7,11 @@ const Contact = () => {
     <div className="card">
         <NavBar/>
         <div class="intro">
-{/* 
+ 
+        </div>
+
+         <div className="middle">
+            
             <h2>Contact me</h2>
 
 
@@ -18,12 +22,8 @@ const Contact = () => {
                     <a href="https://github.com/calumsmyth" target="_blank">GitHub</a>
                     <a href="https://www.linkedin.com/in/calumsmyth" target="_blank">LinkedIn</a>
                     <a href="https://www.credly.com/users/calumsmyth" target="_blank">Credly</a>
-                </div> */}
-        </div>
-
-        {/* <div className="middle">
-            
-        </div> */}
+                </div>
+        </div> 
 
         <Footer/>
     </div>

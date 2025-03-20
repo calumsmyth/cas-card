@@ -7,7 +7,7 @@ const About = () => {
 return(
     <div className="card">
         <NavBar/>
-        <div class="intro">
+        <div className="intro">
             <div class="intro-paragraph">
                 <h2>Backstory</h2>
                 <p>
