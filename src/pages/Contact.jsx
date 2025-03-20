@@ -6,9 +6,6 @@ const Contact = () => {
     return(
     <div className="card">
         <NavBar/>
-        <div class="intro">
- 
-        </div>
 
          <div className="middle">
             
@@ -20,7 +17,9 @@ const Contact = () => {
             
                 <div class="content">
                     <a href="https://github.com/calumsmyth" target="_blank">GitHub</a>
+                    <br/>
                     <a href="https://www.linkedin.com/in/calumsmyth" target="_blank">LinkedIn</a>
+                    <br/>
                     <a href="https://www.credly.com/users/calumsmyth" target="_blank">Credly</a>
                 </div>
         </div> 

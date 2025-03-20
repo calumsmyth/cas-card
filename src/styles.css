@@ -230,6 +230,29 @@ nav {
 }
 
 
+.intro-text h2{
+    color:rgb(235, 235, 235, 0.7);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0.3vw;
+    margin-bottom: 0.3vw;
+}
+
+.about-paragraph h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ffff;
+}
+
+.about-paragraph{
+    color: white;
+}
+
+.about-paragraph a{
+    text-decoration: none;
+    color:#ff007f;
+}
+
 .projects-paragraph h2 {
     color: #00ffff;
     font-family: 'Courier New', Courier, monospace;
@@ -270,8 +293,6 @@ nav {
 
 
 .middle {
-    /* border-radius: 5px;
-    background-color: rgb(5, 177, 177); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -279,6 +300,17 @@ nav {
     padding-top: 15px;
     padding-bottom: 52px;
     min-height: 80px;
+}
+
+.middle a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ff007f;
+    margin-bottom: 1vw;
+    margin-top:1vw;
 }
 
 .tech-stack-title {
