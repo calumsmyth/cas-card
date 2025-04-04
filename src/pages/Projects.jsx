@@ -19,13 +19,13 @@ const Projects = () => {
             <h2>Some examples of my work:</h2>
                 <h3>Now lets see Paul Allen's.... I mean Calum's Card </h3>
                 <p>I have been reworking my website as a React project. The initial version, which was a mimic of this website can be seen below. But I have now made an alternate version which can be found here:</p>
-                <br/><a href="https://calumsmyth.github.io/CAS/" target="_blank">CAS Alternate App</a>
+                <br/><a href="https://calumsmyth.github.io/CAS/" target="_blank" rel="noopener noreferrer">CAS Alternate App</a>
                 <h3>Reacting to the challenge...</h3>
                 <p>This very website is my first fully fleshed out project. I have also made a React app version which can be found here:</p>
-                <br/><a href="https://cas-app-steel.vercel.app/" target="_blank">React version</a>
+                <br/><a href="https://cas-app-steel.vercel.app/" target="_blank" rel="noopener noreferrer">React version</a>
                 <h3>Cooking up a storm!</h3>
                 <p>I wanted to keep all of my favourite, healthy meal preperations, which are perfect for those gym gains, all in one place. So I decided to make a website to host them on called 'Gym Meal Preperations'. I will be looking to make a React version of this too. While still being worked on, you can find this bun in the oven here:</p>
-                <br/><a href="https://calumsmyth.github.io/gmp/" target="'_blank">Gym Meal Preperations</a>
+                <br/><a href="https://calumsmyth.github.io/gmp/" target="'_blank" rel="noopener noreferrer">Gym Meal Preperations</a>
 
         </div>
 

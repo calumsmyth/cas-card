@@ -16,11 +16,11 @@ const Contact = () => {
             <h2>Contact Details</h2>
             
                 <div class="content">
-                    <a href="https://github.com/calumsmyth" target="_blank">GitHub</a>
+                    <a href="https://github.com/calumsmyth" target="_blank" rel="noopener noreferrer">GitHub</a>
                     <br/>
-                    <a href="https://www.linkedin.com/in/calumsmyth" target="_blank">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/calumsmyth" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     <br/>
-                    <a href="https://www.credly.com/users/calumsmyth" target="_blank">Credly</a>
+                    <a href="https://www.credly.com/users/calumsmyth" target="_blank" rel="noopener noreferrer">Credly</a>
                 </div>
         </div> 
 

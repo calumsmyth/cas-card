@@ -3,12 +3,12 @@ import NavBar from '../components/routing/NavBar';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 
+
 const About = () => {
 return(
     <div className="card">
         <NavBar/>
         <div className="intro">
-
             
             <div class="about-paragraph">
                 <h2>Backstory</h2>

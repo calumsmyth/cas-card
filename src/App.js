@@ -7,6 +7,7 @@ import NavBar from './components/routing/NavBar'
 import HeroTitle from './components/HeroTitle'
 
 
+
 function App() {
   return (
     <Router>
