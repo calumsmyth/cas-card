@@ -19,6 +19,8 @@ const Home = () => {
                 <p className="intro-paragraph">Hello and welcome. My name is Calum and I am making a career change into Software/Web Development after over 8 years of working in the NHS. I am particularly interested in Artifical Intelligence (AI) and its potential to impact on the way we work. Web3 is also an area I am keen to learn more about and its potential to change the internet as we know it.</p>
             </div>
 
+
+
             <ImageSwitcher/>
         </div>
 
@@ -33,7 +35,6 @@ const Home = () => {
                 <p>SQL</p>
             </div>
         </div> */}
-
         <Footer />
     </div>
     );

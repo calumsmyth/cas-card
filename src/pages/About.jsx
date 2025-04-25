@@ -10,7 +10,7 @@ return(
         <NavBar/>
         <div className="intro">
             
-            <div class="about-paragraph">
+            <div className="about-paragraph">
                 <h2>Backstory</h2>
                 <p>
                 I am a software and web developer with a passion for problem-solving, clean code, and innovative technology. My journey into development began with over 100 hours of self-driven study through The Odin Project, where I built a strong foundation in HTML, CSS, JavaScript, and GitHub while working full-time in the NHS. To further accelerate my transition, I enrolled in the AI-Driven Software Engineering bootcamp by Skills City, a full-time program covering React, Python, SQL, Django, APIs, AI/ML, and Cloud Computing.

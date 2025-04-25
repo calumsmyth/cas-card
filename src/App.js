@@ -5,6 +5,8 @@ import Hero from '../src/components/Hero';
 import Footer from './components/Footer';
 import NavBar from './components/routing/NavBar'
 import HeroTitle from './components/HeroTitle'
+import HamburgerMenu from './components/HamburgerMenu'
+import './index.css'
 
 
 
