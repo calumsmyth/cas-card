@@ -28,7 +28,7 @@ const Projects = () => {
                 <br/><a href="https://cas-app-steel.vercel.app/" target="_blank" rel="noopener noreferrer">React version</a>
                 <h3>Cooking Up a Storm!</h3>
                 <p>I wanted to keep all of my favourite, healthy meal preperations, which are perfect for those gym gains, all in one place. So I decided to make a website to host them on called 'Gym Meal Preperations'. I will be looking to make a React version of this too. While still being worked on, you can find this bun in the oven here:</p>
-                <br/><a href="https://calumsmyth.github.io/gmp/" target="'_blank" rel="noopener noreferrer">Gym Meal Preperations</a>
+                <br/><a href="https://calumsmyth.github.io/gmp/" target="'_blank" rel="noopener noreferrer">Gym Meal Preparations</a>
                 
 
         </div>
