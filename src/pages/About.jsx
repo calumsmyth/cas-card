@@ -2,14 +2,15 @@ import React from "react";
 import NavBar from '../components/routing/NavBar';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
+import HamburgerMenu from '../components/HamburgerMenu'
 
 
 const About = () => {
 return(
     <div className="card">
-        <NavBar/>
+        <HamburgerMenu />   
         <div className="intro">
-            
+
             <div className="about-paragraph">
                 <h2>Backstory</h2>
                 <p>

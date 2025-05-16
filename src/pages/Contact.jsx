@@ -1,12 +1,12 @@
 import React from 'react';
 import NavBar from '../components/routing/NavBar'
 import Footer from '../components/Footer'
+import HamburgerMenu from '../components/HamburgerMenu'
 
 const Contact = () => {
     return(
     <div className="card">
-        <NavBar/>
-
+        <HamburgerMenu />
          <div className="middle">
             
             <h2>Contact me</h2>

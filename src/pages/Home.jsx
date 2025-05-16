@@ -4,12 +4,13 @@ import "../styles.css";
 import ImageSwitcher from '../components/ImageSwitcher';
 import NavBar from '../components/routing/NavBar'
 import Footer from '../components/Footer'
+import HamburgerMenu from '../components/HamburgerMenu'
 
 
 const Home = () => {
     return(
     <div className="card">
-            <NavBar />   
+           <HamburgerMenu />
         <div className="intro">
             
             <div className="intro-text">

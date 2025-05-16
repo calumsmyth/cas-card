@@ -1,13 +1,13 @@
 import React from 'react';
 import NavBar from '../components/routing/NavBar';
 import Footer from '../components/Footer';
+import HamburgerMenu from '../components/HamburgerMenu'
 
 const Projects = () => {
     return(
 
     <div className="card">
-        <NavBar/>
-
+        <HamburgerMenu />
     <div className="intro">
         <div className="intro-text">
 
@@ -27,7 +27,7 @@ const Projects = () => {
                 <p>This very website is my first fully fleshed out project. I have also made a React app version which can be found here:</p>
                 <br/><a href="https://cas-app-steel.vercel.app/" target="_blank" rel="noopener noreferrer">React version</a>
                 <h3>Cooking Up a Storm!</h3>
-                <p>I wanted to keep all of my favourite, healthy meal preperations, which are perfect for those gym gains, all in one place. So I decided to make a website to host them on called 'Gym Meal Preperations'. I will be looking to make a React version of this too. While still being worked on, you can find this bun in the oven here:</p>
+                <p>I wanted to keep all of my favourite, healthy meal preparations, which are perfect for those gym gains, all in one place. So I decided to make a website to host them on called 'Gym Meal Preparations'. I will be looking to make a React version of this too. While still being worked on, you can find this bun in the oven here:</p>
                 <br/><a href="https://calumsmyth.github.io/gmp/" target="'_blank" rel="noopener noreferrer">Gym Meal Preparations</a>
                 
 
