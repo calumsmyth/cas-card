@@ -23,7 +23,7 @@ const HamburgerMenu = () => {
         <div className="hamburger-wrapper">
             <div className="hamburger-icon-container">
                 <Hamburger
-                    size={30}
+                    size={40}
                     toggled={open}
                     toggle={setOpen}
                     color="#00ff87"
