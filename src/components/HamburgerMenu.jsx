@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import Hamburger from 'hamburger-react';
+import { Divide as Hamburger } from 'hamburger-react';
 import { NavLink } from 'react-router-dom';
 
 const HamburgerMenu = () => {
