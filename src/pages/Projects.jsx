@@ -35,6 +35,7 @@ const Projects = () => {
             </Expander>   
             <Expander title="Vite Recipe Site">
                 <h3>Cooking Up a Storm!</h3>
+                <p>Here is the latest version of my recipe site, but made a little more professional than before.</p>
                 <br/><a href="https://gmpv.vercel.app/" target="_blank" rel="noopener noreferrer">React Verion of Gym Meal Preparations</a>
             </Expander>
         </div>
