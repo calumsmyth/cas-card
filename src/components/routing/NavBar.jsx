@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import HamburgerMenu from '../HamburgerMenu' 
 import '../../styles.css'
 
 const NavBar = () => {

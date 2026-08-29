@@ -1,8 +1,6 @@
 import React from "react";
-import frontOnPhoto from '../assets/images/frontOnPhoto.jpg';
 import "../styles.css";
 import ImageSwitcher from '../components/ImageSwitcher';
-import NavBar from '../components/routing/NavBar'
 import Footer from '../components/Footer'
 import HamburgerMenu from '../components/HamburgerMenu'
 

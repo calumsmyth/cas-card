@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import "../styles.css";
 import AvatarImage from '../assets/images/avatarImage.jpg';
 import FrontOnPhoto from '../assets/images/frontOnPhoto.jpg';

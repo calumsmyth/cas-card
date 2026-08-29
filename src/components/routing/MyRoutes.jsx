@@ -4,9 +4,6 @@ import Home from '../../pages/Home';
 import About from '../../pages/About';
 import Contact from '../../pages/Contact';
 import Projects from '../../pages/Projects';
-import NavBar from './NavBar';
-import Hero from '../Hero'
-import Footer from '../Footer'
 
 const MyRoutes = () => {
     return (

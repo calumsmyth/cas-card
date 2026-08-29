@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../components/routing/NavBar'
 import Footer from '../components/Footer'
 import HamburgerMenu from '../components/HamburgerMenu'
 
