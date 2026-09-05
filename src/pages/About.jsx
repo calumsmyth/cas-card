@@ -1,16 +1,14 @@
 import React from "react";
-import Footer from '../components/Footer';
-import { Link } from 'react-router-dom';
-import HamburgerMenu from '../components/HamburgerMenu'
+import {Link} from 'react-router-dom';
+import CardLayout from '../components/CardLayout';
 import Expander from '../components/Expander'
 
 
 const About = () => {
 return(
-    <div className="card">
-        <HamburgerMenu />   
+    <CardLayout>
+ 
         <div className="intro">
-
             <div className="about-paragraph">
                 <Expander title="Background">
                     <h2>Backstory</h2>
@@ -24,7 +22,7 @@ return(
                     I am highly motivated, detail-oriented, and a passionate individual always looking to develop my knowledge. I am looking forward to combining my established skills with my growing developer knowledge to create impactful software solutions. 
                     <br/>
                     <br/>
-                    This site is a continous work in progress as I continue to update it with my work. Please feel free to take a look at <Link to="/projects">my projects</Link> my projects page for examples of my work. 
+                    This site is a continous work in progress as I continue to update it with my work. Please feel free to take a look at my <Link to="/projects">projects page</Link> for examples of my work. 
                     <br/>
                     <br/>
                     Should you be interested in contacting me, please refer to my social at the bottom of each page, or head over to my <Link to="/contact">contact me</Link> page for further information!
@@ -33,12 +31,7 @@ return(
 
             </div>
         </div>
-
-        <div className="middle">
-        </div>
-
-    <Footer />
-    </div>
+        </CardLayout>
     );
 }
 

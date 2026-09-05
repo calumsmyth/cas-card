@@ -1,14 +1,12 @@
 import React from "react";
 import "../styles.css";
 import ImageSwitcher from '../components/ImageSwitcher';
-import Footer from '../components/Footer'
-import HamburgerMenu from '../components/HamburgerMenu'
+import CardLayout from "../components/CardLayout";
 
 
 const Home = () => {
     return(
-    <div className="card">
-           <HamburgerMenu />
+    <CardLayout>
         <div className="intro">
             
             <div className="intro-text">
@@ -22,20 +20,7 @@ const Home = () => {
 
             <ImageSwitcher/>
         </div>
-
-        {/* <div className="middle">
-            <h3 className="tech-stack-title">My Tech Stack:</h3>
-            <div className="tech-stack-list">
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
-                <p>React</p>
-                <p>Python</p>
-                <p>SQL</p>
-            </div>
-        </div> */}
-        <Footer />
-    </div>
+</CardLayout>        
     );
 }
 

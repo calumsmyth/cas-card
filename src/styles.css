@@ -68,15 +68,27 @@ nav {
     padding-left: 1vw;
 }
 
+.hamburger-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .mobile-nav-menu{
-    align-self: center;
+    position: absolute;
+    top: 100%;
+    right: 0;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    width:auto;
+
+    width:max-content;
+
     background-color: rgb(10, 25, 47, 0.8);
     border-radius: 6px;
+    Margin-top: 8px;
 
+    z-index: 1000;
 }
 
 
@@ -158,12 +170,14 @@ nav {
 .expander {
     height: auto;
     width: 75%;
+    max-width: 550px;
     border-radius: 5px;
     box-shadow: #00ffff;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 6px;
 }
 
 .expander-button{
@@ -172,7 +186,7 @@ nav {
     font-weight: bold;
     font-size: large;
     background-color:#00ff87;
-    border-radius: 10px;
+    border-radius: 18px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -182,19 +196,41 @@ nav {
 
 }
 
+.card-content {
+    width:100%;
+    box-sizing: border-box;
+}
+
 
 .intro {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    margin-top: 0vw;       
+
+    margin-top: 0;       
     margin-bottom: 4vw;
     padding-top: 4vw;
     padding-right: 3vw;
     padding-left: 2.5vw;
     padding-bottom: 0vw;
+
     min-height: 16vw;
     height: auto;
+}
+
+@media (max-width: 640px) {
+    .intro {
+        flex-direction:column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .image-change {
+        width:30vw;
+        max-width: 120px;
+        margin-left: 0;
+    }
 }
 
 .intro-text h1{
@@ -471,108 +507,3 @@ nav {
     width: 280px;
     margin-bottom: 4px;
 }
-
-
-
-
-
-/* Old code not being used.  */
-
-/* .hero {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(5, 177, 177);
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    color: rgb(255, 191, 106);
-    min-height:160px;
-    border-radius: 5px;
-}
-
-.hero h1{
-    margin-bottom: 5px;
-    text-shadow: 
-    -3px -1px 0 #000,   
-     1px -1px 0 #000,  
-    -3px  1px 0 #000, 
-    1px  1px 0 #000;   
-}
-
-.hero h5 {
-    margin-top: 5px;
-    font-size: 20px;;
-    text-shadow: 
-    -1px -1px 0 #000,   
-     1px -1px 0 #000,  
-    -1px  1px 0 #000, 
-    1px  1px 0 #000;   
-
-} 
-
-.hero-title{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    color: white;
-    min-height:100px;
-    border-radius: 5px;
-    background-color: rgb(5, 177, 177);
-}
-
-.hero-title h2{
-    color: white;
-    padding-bottom: 0px;;
-    text-shadow: 
-    -1px -1px 0 #000,   
-     1px -1px 0 #000,  
-    -1px  1px 0 #000, 
-    1px  1px 0 #000;   
-
-} 
-
-.main-body {
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-
-.content a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin:15px;
-}
-
-@media (max-width:768px) {
-    .hero{
-        font-size: 18px;
-        min-height: 150px;
-    }
-} 
-    
-.self-photo {
-    height: 300px;
-    width: auto;
-    border-radius: 20px;
-    border: solid, 6px, #00ffff;
-    box-shadow: 0px 0px 24px #00ff87;
-    margin-left: 30px;
-}
-
-.self-photo:hover {
-    transform: Scale(1.1);
-    box-shadow: 0px 0px 16px #ff007f;
-    transition: all 0.5s ease-in-out;
-}*/
