@@ -9,9 +9,9 @@ const HamburgerMenu = () => {
     // Define navigation links
     const navLinks = [
         { to: "/", label: "Home" },
-        { to: "/about", label: "About" },
+        { to: "/projects", label: "Projects" },
         { to: "/contact", label: "Contact" },
-        { to: "/projects", label: "Projects" }
+        { to: "/about", label: "About" }
     ];
 
     // Close menu when a link is clicked
